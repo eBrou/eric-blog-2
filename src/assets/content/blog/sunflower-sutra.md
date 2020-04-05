@@ -2,7 +2,7 @@
 title: Hello, Pandemic Life
 author: Eric Broucek
 date: 2020-04-02T07:00:00Z
-hero_image: "/src/assets/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg"
+hero_image: "/src/assets/content/images/eric_bean_portrait_small.jpg"
 
 ---
 So here we are in the midst of an unprecedented pandemic, living an altered version of the lives we knew. In the spirit of exploration and boredom, I've decided to start a mostly-technical blog of things I'm working on or discover that seem interesting to me. I have no specific agenda; we'll just see how it goes.
