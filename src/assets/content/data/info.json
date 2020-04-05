@@ -1,10 +1,10 @@
 {
-  "description": "<p>This blog was created using <a href=\"https://forestry.io/\" title=\"Forestry Link\">Forestry</a> &amp; <a href=\"https://gridsome.org/\" title=\"Gatsby Link\">Gridsome</a></p>",
+  "description": "<p>I'm a web developer, music-lover, average surfer, and tall person.</p><p>Currently, I spend my days making cool stuff as a developer at <a href=\"https://bean.la/\" title=\"Bean\">Bean</a>. I'm mostly into building sites using the JAMStack and Vue.js, sometimes React. Before coding full-time I worked in the music industry for over a decade as an audio engineer, mixer &amp; producer. I live with my wife, daughter, and pup in Los Angeles.</p>",
   "cta": "<p>To get started, import this site into Forestry or checkout the repository <a href=\"https://github.com/kendallstrautman/starter-blog-gatsby\" title=\"Repo Url\">here</a>.</p>",
   "contact": {
-    "email": "info@forestry.io",
-    "twitter_handle": "forestryio",
-    "github_handle": "forestryio"
+    "email": "",
+    "twitter_handle": "ericbroucek",
+    "github_handle": "ebrou"
   },
   "background_color": "#B1BCBC",
   "text_color": "#ebebeb",
