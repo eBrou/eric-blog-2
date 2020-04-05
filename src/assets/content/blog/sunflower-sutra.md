@@ -1,7 +1,7 @@
 ---
-title: Sunflower Sutra
+title: TEST TEST TES
 author: Allen Ginsberg
-date: 2019-07-31T07:00:00Z
+date: 2019-07-31T07:00:00.000+00:00
 hero_image: "/src/assets/content/images/adrien-olichon--aOsCcTJXWY-unsplash.jpg"
 
 ---
