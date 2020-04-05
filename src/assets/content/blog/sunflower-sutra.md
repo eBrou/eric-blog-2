@@ -1,6 +1,6 @@
 ---
 title: Hello, Pandemic Life
-author: Allen Ginsberg
+author: Eric Broucek
 date: 2020-04-02T07:00:00Z
 hero_image: "/src/assets/content/images/sharon-mccutcheon-Th_WZMUPnO4-unsplash.jpg"
 
