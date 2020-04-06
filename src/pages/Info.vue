@@ -2,7 +2,9 @@
   <Layout page="info">
     <section
       class="info__blurb"
-      :style="`background-color: ${data.background_color}; color: ${data.text_color}`"
+      :style="
+        `background-color: ${data.background_color}; color: ${data.text_color}`
+      "
     >
       <div v-html="data.description"></div>
       <!-- <div v-html="data.cta"></div> -->
@@ -14,16 +16,16 @@
         </li>-->
         <li>
           <p>
-            <a
-              :href="`https://twitter.com/${data.contact.twitter_handle}`"
-            >Twitter: @{{ data.contact.twitter_handle}}</a>
+            <a :href="`https://twitter.com/${data.contact.twitter_handle}`"
+              >Twitter: @{{ data.contact.twitter_handle }}</a
+            >
           </p>
         </li>
         <li>
           <p>
-            <a
-              :href="`https://github.com/${data.contact.github_handle}`"
-            >Github: {{ data.contact.github_handle }}</a>
+            <a :href="`https://github.com/${data.contact.github_handle}`"
+              >Github: {{ data.contact.github_handle }}</a
+            >
           </p>
         </li>
       </ul>

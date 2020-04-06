@@ -5,16 +5,16 @@
 </template>
 
 <script>
-import BlogList from '~/components/BlogList.vue'
+import BlogList from "~/components/BlogList.vue";
 
 export default {
   metaInfo: {
-    title: 'Home'
+    title: "Home"
   },
   components: {
     BlogList
   }
-}
+};
 </script>
 
 <page-query>

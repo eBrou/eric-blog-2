@@ -1,5 +1,5 @@
-const config = require("./src/assets/content/data/config.json")
-const infoData = require("./src/assets/content/data/info.json")
+const config = require("./src/assets/content/data/config.json");
+const infoData = require("./src/assets/content/data/info.json");
 
 module.exports = {
   siteName: config.title,
@@ -11,15 +11,15 @@ module.exports = {
   metaData: {
     siteName: config.title,
     siteDescription: config.description,
-    infoData: infoData, 
+    infoData: infoData
   },
   plugins: [
     {
-      use: '@gridsome/source-filesystem',
+      use: "@gridsome/source-filesystem",
       options: {
-        typeName: 'Blog',
+        typeName: "Blog",
         baseDir: "./src/assets/content/",
-        path: 'blog/**/*.md',
+        path: "blog/**/*.md",
         resolveAbsolutePaths: true,
         remark: {
           externalLinksTarget: "_blank",
@@ -28,4 +28,4 @@ module.exports = {
       }
     }
   ]
-}
+};

@@ -78,7 +78,7 @@ query getPostData ($path: String!) {
 
 </page-query>
 
-<style lang="scss" >
+<style lang="scss">
 .blog {
   h1 {
     margin-bottom: 0.7rem;
