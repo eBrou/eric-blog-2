@@ -3,7 +3,7 @@
     <ul class="list">
       <g-link v-for="post in posts" :key="post.node.title" :to="post.node.path">
         <li>
-          <div class="hero_image">
+          <!-- <div class="hero_image">
             <g-image
               :src="post.node.hero_image"
               :alt="post.node.title"
@@ -11,7 +11,7 @@
               height="300"
               quality="75"
             ></g-image>
-          </div>
+          </div>-->
           <div class="blogList__info">
             <h2>{{ post.node.title }}</h2>
             <h3>{{ formatDate(post.node.date) }}</h3>
