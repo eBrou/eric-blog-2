@@ -25,4 +25,5 @@ fields:
   name: hero_image
   label: hero_image
 pages:
+- src/assets/content/blog/boolean-values-using-dotenv.md
 - src/assets/content/blog/hello-pandemic-life.md
