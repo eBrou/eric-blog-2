@@ -2,7 +2,7 @@
 title: 'Boolean Values Using Dotenv '
 author: Eric Broucek
 date: 2020-04-13T07:00:00Z
-hero_image: "/src/assets/content/images/DSCF4437-1.jpg"
+hero_image: "/src/assets/content/images/DSCF4125.jpg"
 
 ---
 It's funny, sometimes you get so used to using a package or other piece of technology that you take it for granted and forget something fundamental about how it works under the hood.  One such instance came up last week on a project I was working on and the [dotenv](https://www.npmjs.com/package/dotenv) package. Unexpectedly, I was looking at requests in my network tab and noticed that while working on a feature I was making api requests with test credentials by mistake.  It took a bit of doubling back through my code to realize that the problem stemmed from the fact that the creds were being set based on a boolean flag - something like:
