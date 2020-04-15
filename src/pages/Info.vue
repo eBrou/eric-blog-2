@@ -1,5 +1,11 @@
 <template>
   <Layout page="info">
+    <g-image
+      class="info__profile-pic"
+      src="~/assets/content/images/eric_bean_portrait_small.jpg"
+      alt="Eric Broucek profile picture"
+      width="800"
+    ></g-image>
     <section
       class="info__blurb"
       :style="
@@ -7,25 +13,19 @@
       "
     >
       <div v-html="data.description"></div>
-      <!-- <div v-html="data.cta"></div> -->
       <ul>
-        <!-- <li>
-          <p>
-            <a :href="`mailto:${data.contact.email}`">Email: {{ data.contact.email}}</a>
-          </p>
-        </li>-->
         <li>
           <p>
-            <a :href="`https://twitter.com/${data.contact.twitter_handle}`"
-              >Twitter: @{{ data.contact.twitter_handle }}</a
-            >
+            <a
+              :href="`https://twitter.com/${data.contact.twitter_handle}`"
+            >Twitter: @{{ data.contact.twitter_handle }}</a>
           </p>
         </li>
         <li>
           <p>
-            <a :href="`https://github.com/${data.contact.github_handle}`"
-              >Github: {{ data.contact.github_handle }}</a
-            >
+            <a
+              :href="`https://github.com/${data.contact.github_handle}`"
+            >Github: {{ data.contact.github_handle }}</a>
           </p>
         </li>
       </ul>
@@ -80,11 +80,17 @@ export default {
   }
 }
 
+.info__profile-pic {
+  width: 250px;
+  border-radius: 50%;
+  margin-top: 1.5rem;
+  margin-left: 2rem;
+  margin: 1.5rem 2rem 0;
+}
+
 .info__fine-print {
   p {
     font-size: 0.8rem !important;
-    position: absolute;
-    bottom: 20px;
   }
 }
 
