@@ -54,10 +54,5 @@ fields:
     schema:
       format: html-blocks
   label: Fine Print
-- name: profile_picture
-  type: file
-  config:
-    maxSize: 250
-  label: Profile Picture
 pages:
 - src/assets/content/data/info.json
