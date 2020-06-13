@@ -28,4 +28,7 @@ Create a custom trigger in GTM to fire on nuxtRoute events coming from your app 
            } 
         }   
 5. Define a custom event trigger to trigger off the nuxtRoute event which comes from @nuxtjs/gtm.
-6. 
+
+   ![](/src/assets/content/images/screen_shot_2020-06-10_at_2-41-59_pm.png)
+6. Create two Data Layer Variables for pageUrl and routeName (routeName is optional).  
+   ![](/src/assets/content/images/screen_shot_2020-06-10_at_2-43-26_pm.png)
