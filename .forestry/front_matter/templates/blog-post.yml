@@ -26,4 +26,5 @@ fields:
   label: hero_image
 pages:
 - src/assets/content/blog/boolean-values-using-dotenv.md
+- src/assets/content/blog/google-tag-manager-google-analytics-setup-with-nuxt.md
 - src/assets/content/blog/hello-pandemic-life.md
