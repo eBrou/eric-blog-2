@@ -2,7 +2,7 @@
 title: Google Tag Manager / Google Analytics Setup with Nuxt
 author: Eric Broucek
 date: 2020-06-13T07:00:00Z
-hero_image: ''
+hero_image: "/src/assets/content/images/img_3289.jpg"
 
 ---
 Much of this info comes from this [stack overflow post](https://stackoverflow.com/a/52885317/6933347) but I'm laying it out here with some additions mostly as a reminder for myself:
