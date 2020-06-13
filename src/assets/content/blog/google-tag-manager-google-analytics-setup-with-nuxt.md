@@ -17,4 +17,15 @@ Create a custom trigger in GTM to fire on nuxtRoute events coming from your app 
 
 1. Create a "container" in Google Tag Manager for your app or site. Note the container id # - e.g. GTM-XXXXXXX
 2. Create a "property" in Google Analytics for your app or site. Note the property tracking id # - e.g. UA-XXXXXXXXX-X
-3. yarn add @nuxtjs/gtm to your project
+3. yarn add @nuxtjs/gtm to your project.
+4. Add @nuxtjs/gtm to the buildModules section of nuxt.config.js. Add GTM containter id and set the pageTracking option to true.
+
+       export default { 
+       	buildModules: [ '@nuxtjs/gtm', ], 
+           gtm: { 
+           	id: 'GTM-XXXXXXX', 
+               pageTracking: true 
+           } 
+        }   
+5. Define a custom event trigger to trigger off the nuxtRoute event which comes from @nuxtjs/gtm.
+6. 
