@@ -31,7 +31,7 @@
         <li>
           <p>
             <a
-              :href="`https://www.linkedin.com/in/${data.contact.linkedIn_handle}`"
+              :href="`https://www.linkedin.com/in/${data.contact.linkedin_handle}`"
             >LinkedIn</a>
           </p>
         </li>
