@@ -29,6 +29,11 @@ fields:
   - type: text
     name: github_handle
     label: github_handle
+  - name: linkedin_handle
+    type: text
+    config:
+      required: false
+    label: linkedin_handle
 - name: background_color
   type: color
   label: background_color
