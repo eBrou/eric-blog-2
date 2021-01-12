@@ -28,6 +28,13 @@
             >Github: {{ data.contact.github_handle }}</a>
           </p>
         </li>
+        <li>
+          <p>
+            <a
+              :href="`https://www.linkedin.com/in/${data.contact.linkedIn_handle}`"
+            >LinkedIn</a>
+          </p>
+        </li>
       </ul>
       <div class="info__fine-print" v-html="data.fine_print"></div>
     </section>
@@ -59,6 +66,7 @@ export default {
                     email
                     twitter_handle
                     github_handle
+                    linkedin_handle
                 }
                 background_color
                 text_color
