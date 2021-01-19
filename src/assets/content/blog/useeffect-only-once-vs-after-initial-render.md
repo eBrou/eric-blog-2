@@ -1,7 +1,7 @@
 ---
-title: useEffect - Only Once vs Only On Subsequent Renders
+title: React useEffect Hook - Only Once vs Only On Subsequent Renders
 author: Eric Broucek
-date: 2021-01-08T08:00:00Z
+date: 2021-01-08T08:00:00.000+00:00
 hero_image: "/src/assets/content/images/img_5164.jpg"
 
 ---
@@ -55,4 +55,4 @@ Import this hook into your component and its usage would look just like the orig
     	console.log("useDidUpdate function only fires AFTER initial render")
     },[watchedVal3])
 
-Both situations - running some function on just the first render and running it only on subsequent renders - are bound to come up when working on a React project so it's good to keep these approaches handy.  
+Both situations - running some function on just the first render and running it only on subsequent renders - are bound to come up when working on a React project so it's good to keep these approaches handy.
