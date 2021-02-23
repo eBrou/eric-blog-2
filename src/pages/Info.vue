@@ -2,7 +2,7 @@
   <Layout page="info">
     <g-image
       class="info__profile-pic"
-      src="~/assets/content/images/eric_bean_portrait_small.jpg"
+      src="~/assets/content/images/Eric_2021_Headshot_cropped_small.jpg"
       alt="Eric Broucek profile picture"
       width="800"
     ></g-image>
